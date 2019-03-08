@@ -1,0 +1,9 @@
+@import "../../assets/scss/variables";
+
+.banner {
+  border-top: 4px solid $primary;
+  border-bottom: 4px solid $primary;
+  img {
+    display: block;
+  }
+}

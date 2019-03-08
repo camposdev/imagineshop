@@ -1,0 +1,41 @@
+@import "../../assets/scss/variables";
+
+.product-card {
+  width: 260px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  margin-bottom: 30px;
+  transition: all .3s ease;
+  a {
+    display: block;
+    padding: 12px;
+    cursor: pointer;
+    color: $dark;
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  &-title {
+    font-size: 14px;
+    transition: all .3s ease;
+  }
+  &-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: all .3s ease;
+  }
+  &-payment {
+    color: $gray;
+    font-size: 12px;
+  }
+  &:hover {
+    box-shadow: 0 8px 10px rgba(0,0,0,.2);
+    .product-card-title,
+    .product-card-price {
+      color: $primary;
+    }
+  }
+}

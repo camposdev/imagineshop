@@ -1,0 +1,32 @@
+@import "../../assets/scss/variables";
+
+.footer {
+  margin-top: 80px;
+  padding-top: 40px;
+  background: $light;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-social ul {
+    display: flex;
+    a {
+      font-size: 30px;
+      color: $gray;
+      display: block;
+      padding: 10px;
+      transition: all .3s ease;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  &-address {
+    font-size: 12px;
+    color: $gray;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+  }
+}
